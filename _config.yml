@@ -55,10 +55,10 @@ asset_url: /assets
 #asset_url: //meta-kage.kakaocdn.net/dn/osa/blog/assets
 #asset_url: //t1.daumcdn.net/osa/blog/assets
 google_analytics:
-  ua: 'UA-72007721-1'
+  ua: 'UA-140053724-2'
 facebook:
-  app_id: '1204347326263800'
-  username: nurilab
+  app_id: '642827302424503'
+  username: nurilab.do
 twitter:
   username: nurilab
 google_plus:
