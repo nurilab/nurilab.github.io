@@ -3,7 +3,7 @@ email: support@nurilab.com
 description: |
   세상의 모든 것들이 불편하지 않도록 연구하는 사람들의 모임
 baseurl: ''
-url: 'http://tech.nurilab.com'
+url: 'http://nurilab.github.io'
 timezone: Asia/Seoul 
 
 repository: nurilab/nurilab.github.io
