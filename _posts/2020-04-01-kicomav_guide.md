@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'KicomAV 가이드 (악성코드 패턴 추가 방법 포함)'
-author: Seok-Enun Park
+author: Seok-Eun Park
 date: 2020-04-01 09:37
 tags: [kicomav,opensource]
 ---
