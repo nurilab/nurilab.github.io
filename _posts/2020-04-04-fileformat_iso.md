@@ -4,7 +4,7 @@ title: '디스크 이미지 파일 포맷 - ISO'
 author: Kei Choi
 # image: /files/covers/nurilab.png
 date: 2020-04-04 09:14
-tags: [fileformat]
+tags: [fileformat, python]
 ---
 
 ## 개요
