@@ -975,6 +975,11 @@ body.tag-template #navbar {
     margin: 0 80px;
 }
 
+#disqus_thread {
+    position: relative;
+    margin: 30px 40px;
+}
+
 #author-image {
     position: absolute;
     top: 30px;
@@ -1494,6 +1499,10 @@ body.page-template {
         margin: 0 15px;
     }
 
+    #disqus_thread {
+        margin: 0 15px;
+    }
+    
     #author-image {
         top: 25px; /* 25px = 100(#post-footer height) - 50(#author-image height) / 2 */
         width: 50px;
