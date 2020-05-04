@@ -948,8 +948,9 @@ body.tag-template #navbar {
 
 /* @@iolo */
 #post-content table {
-    margin: 1em auto;
-    border: 3px solid #f3cf00;
+    /* margin: 1em auto; */
+    border: 2px solid #f3cf00;
+    width: 100%;
 }
 
 #post-content th {
@@ -967,6 +968,13 @@ body.tag-template #navbar {
     margin: 0;
     text-align: left;
 }
+
+#post-content .tb_ole {width:100%; border: 2px solid #dcdcdc;}
+#post-content .tb_ole td:first-child {
+    width:15%;
+    background-color: #fafafa;
+}
+
 
 /* @@iolo */
 #post-footer {
@@ -1765,3 +1773,8 @@ body.page-template {
         background-image: url(../images/mo/default_pic_l@3x.png);
     }
 }
+
+/* ========================================================================== */
+
+
+
