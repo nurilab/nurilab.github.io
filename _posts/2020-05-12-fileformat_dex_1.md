@@ -6,7 +6,7 @@ date: 2020-05-12 09:30
 tags: [fileformat, python, dex]
 ---
 
-<fieldset style="margin:20px 0px 20px 0px;padding:5px;"><legend><span><strong>참고 </strong></span></legend><!--Creative Commons License--><div style="float: left; width: 88px; margin-top: 3px;"><img alt="Creative Commons License" style="border-width: 0" src="/files/images/exclamationmark.png"/></div><div style="margin-left: 92px; margin-top: 3px; text-align: justify;">본 기술문서는 이전 누리랩 기술 블로그에 게재되었던 문서로 현재는 해당 블로그가 폐쇄되고 본 기술 블로그로 새롭게 개편됨에 이전된 글임을 밝힙니다.
+<fieldset style="margin:20px 0px 20px 0px;padding:5px;"><legend><span><strong style="font-weight:bold;">참고 </strong></span></legend><!--Creative Commons License--><div style="float: left; width: 88px; margin-top: 3px;"><img alt="Creative Commons License" style="border-width: 0" src="/files/images/exclamationmark.png"/></div><div style="margin-left: 92px; margin-top: 3px; text-align: justify;">본 기술문서는 이전 누리랩 기술 블로그에 게재되었던 문서로 현재는 해당 블로그가 폐쇄되고 본 기술 블로그로 새롭게 개편됨에 이전된 글임을 밝힙니다.
 </div></fieldset>
 
 ## 1. classes.dex 파일 (1)
@@ -261,10 +261,10 @@ for i in range(len(string_ids)) :
 [1120] 湲곕낯 �ㅼ젙��蹂듭썝, �대�
 ```
 
-## 결론
+## 2. 결론
 
 classes.dex 파일의 가장 기본인 헤더와 String 정보에 대해서 살펴보았다. 다음 편에서는 Type과 Proto 정보 추출에 대해서 살펴보도록 한다.
 
-## 참조
+## 3. 참조
 
 [^1]:  Dalvik Executable Format: <https://source.android.com/devices/tech/dalvik/dex-format>

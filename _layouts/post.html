@@ -20,7 +20,13 @@ layout: default
 </div>
 
 <div id="content" class="container post" role="main">
-  <div id="post-content">{{ content }}</div>
+  <div id="post-content">{{ content }}
+  
+    <fieldset style="margin:50px 0px 0px 0px;padding:5px;"><legend><span><strong  style="font-weight:bold;">크리에이티브 커먼즈 라이선스</strong></span></legend><!--Creative Commons License--><div style="float: left; width: 88px; margin-top: 3px;"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width: 0" src="/files/images/88x31.png"/></a></div><div style="margin-left: 92px; margin-top: 3px; text-align: justify;">이 저작물은 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">크리에이티브 커먼즈 저작자표시-비영리-변경금지 4.0 국제 라이선스</a>에 따라 이용할 수 있습니다.</div></fieldset>
+
+  </div>
+  
+  
   <div id="post-footer">
     {% assign author = site.authors | where: 'name', page.author | first %}
     <a id="post-author" href="{{ author.url }}">
