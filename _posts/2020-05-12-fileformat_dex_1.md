@@ -178,9 +178,6 @@ print hex(string_off)
 
 위 그림에서 보면, 문자열의 길이는 0이며, 실제 문자열은 없고 뒤에 NULL이 존재함을 보여주고 있다. 위 내용에서 실제 문자열을 확인할 수 없으니, 5번째 문자열을 시작 위치 값을 확인해보자.
 
-![Sting 5번째 문자열 구성](/files/ff_dex1_4.png)
-
-
 ```
 size = hdr['string_ids_size'] # 전체 문자열 개수
 off  = hdr['string_ids_off']  # 전체 문자열의 시작 위치
@@ -198,6 +195,10 @@ print hex(string_off)
 ```
 
 5번째 문자열의 정보가 저장되어 있는 0x14fc0에 가면 다음의 정보를 확인할 수 있다.
+
+
+![Sting 5번째 문자열 구성](/files/ff_dex1_4.png)
+
 
 첫 1Byte인 0xE는 NULL을 제외한 문자열의 길이가 14Byte임을 의미하며, 연이어 14Byte 값이 ‘ Destroying: ‘이 저장되어 있다.
 
