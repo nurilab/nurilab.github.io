@@ -3,7 +3,7 @@ layout: post
 title: '파이썬을 이용하여 파일 업로드/다운로드 자동화하기'
 author: Seok-Eun Park
 image: /files/covers/python.jpg
-date: 2020-04-13 17:00
+date: 2020-04-13 18:00
 tags: [python]
 ---
 ## 개요
