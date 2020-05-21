@@ -6,6 +6,11 @@ date: 2020-05-04 18:00
 tags: [fileformat, ole]
 ---
 
+<fieldset style="margin:0px 0px 20px 0px;padding:5px;"><legend><span><strong style="font-weight:bold;">연재 순서</strong></span></legend><!--Creative Commons License--><div style="float: left; width: 88px; margin-top: 3px;"><img alt="Creative Commons License" style="border-width: 0" src="/files/images/exclamationmark.png"/></div><div style="margin-left: 92px; margin-top: 3px; text-align: justify;"><p style="margin: 0; background:#ddd;">1. OLE 파일 구조 분석 (1) - Header, BBAT, SBAT</p>
+<p style="margin: 0;"><a href="/2020/05/15/fileformat_ole_2/">2. OLE 파일 구조 분석 (2) - Root Storage</a></p>
+<p style="margin: 0;"><a href="/2020/05/21/fileformat_ole_3/">3. OLE 파일 구조 분석 (3) - Stream Object</a></p>
+</div></fieldset>
+
 ## OLE File Format
 
 OLE란 Object Linking and Embedding 약자로서 객체 연결 및 삽입을 뜻하며
