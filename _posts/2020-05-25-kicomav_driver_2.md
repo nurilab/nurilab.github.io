@@ -9,7 +9,7 @@ tags: [kicomav,opensource,driver]
 <fieldset style="margin:0px 0px 20px 0px;padding:5px;"><legend><span><strong style="font-weight:bold;">연재 순서</strong></span></legend><!--Creative Commons License--><div style="float: left; width: 88px; margin-top: 3px;"><img alt="Creative Commons License" style="border-width: 0" src="/files/images/exclamationmark.png"/></div><div style="margin-left: 92px; margin-top: 3px; text-align: justify;">
 <p style="margin: 0;"><a href="/2020/05/18/kicomav_driver_1/">첫번째 글: 실시간 감시기란</a></p>
 <p style="margin: 0; background:#ddd;">두번째 글: 미니필터 드라이버를 사용하여 실시간 파일 I/O 확인하기</p>
-<p style="margin: 0;">세번째 글: KicomAV 엔진을 사용하여 유해한 파일인지 확인하기</p>
+<p style="margin: 0;"><a href="/2020/06/01/kicomav_driver_3/">세번째 글: KicomAV 엔진을 사용하여 유해한 파일인지 확인하기</a></p>
 </div></fieldset>
 
 
@@ -160,7 +160,7 @@ const UNICODE_STRING ScannerExtensionsToScan[] =
 
 지금까지 scanner 샘플에 대한 있는 그대로의 내용을 설명하였다. 우리가 만들 실시간 감시기는 scanner 샘플과는 조금 다르게 파일 데이터 대신 파일 경로를 수집하여 scanuser.exe 프로그램으로 전달할 것이다. 그리고 파일 쓰기 및 닫기 연산에 대해서는 처리하지 않고 오로지 파일 열기 연산만 감시하는 방법을 사용할 것이다. 아래 링크는 필자가 수정한 scanner 샘플 소스코드이다. 편의상 scanner_filepath 소스코드로 부르겠다. 방금 설명한 정도의 수정만 한 것으로 최대한 원본 소스코드를 그대로 사용하였다. 두 개의 소스코드를 비교해보면 수정한 내용을 쉽게 확인할 수 있을 것이다. 우리는 앞으로 scanner_filepath 소스코드를 기반으로 다음 글에서는 KicomAV 엔진을 붙이는 작업을 진행할 것이다.
 
-- 소스코드 : <https://github.com/nurilab/scanner_filepath>
+- 소스코드 : <https://github.com/nurilab/scanner_filepath/releases/tag/1st_version>
 
 scanner_filepath 소스코드를 빌드하여 테스트할 때 주의할 점은 기존에 scanner 샘플을 사용 중이었다면 새로운 scanner.sys 미니필터 드라이버로 교체해주어야 한다는 것이다. 이를 위해서 우선 기존에 사용 중이던 scanner.sys 미니필터 드라이버를 언로드해야 한다. 언로드 명령은 앞서 설명한 것과 같이 sc stop servicename (혹은 net stop servicename) 명령을 사용하면 된다. 그런 다음 scanner.inf 파일로 재설치를 하던지 아니면 수동으로 scanner.sys 파일을 “C:\Windows\System32\drivers\” 경로에 복사해주어야 한다.
 
