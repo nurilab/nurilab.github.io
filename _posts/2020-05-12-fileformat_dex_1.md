@@ -6,7 +6,11 @@ date: 2020-05-12 09:30
 tags: [fileformat, python, dex]
 ---
 
-<fieldset style="margin:20px 0px 20px 0px;padding:5px;"><legend><span><strong style="font-weight:bold;">참고 </strong></span></legend><!--Creative Commons License--><div style="float: left; width: 88px; margin-top: 3px;"><img alt="Creative Commons License" style="border-width: 0" src="/files/images/exclamationmark.png"/></div><div style="margin-left: 92px; margin-top: 3px; text-align: justify;">본 기술문서는 이전 누리랩 기술 블로그에 게재되었던 문서로 현재는 해당 블로그가 폐쇄되고 본 기술 블로그로 새롭게 개편됨에 따라 이전된 글임을 밝힙니다.
+<fieldset style="margin:0px 0px 20px 0px;padding:5px;"><legend><span><strong style="font-weight:bold;">연재 순서</strong></span></legend><!--Creative Commons License--><div style="float: left; width: 88px; margin-top: 3px;"><img alt="Creative Commons License" style="border-width: 0" src="/files/images/exclamationmark.png"/></div><div style="margin-left: 92px; margin-top: 3px; text-align: justify;">
+<p style="margin: 0; background:#ddd;">첫번째 글: classes.dex 파일 포맷 (Header, String IDs)</p>
+<p style="margin: 0;"><a href="/2020/06/08/fileformat_dex_2/">두번째 글: classes.dex 파일 포맷 (Type IDs, Proto IDs)</a></p>
+<p style="margin: 0;">세번째 글: classes.dex 파일 포맷 (Field IDs, Method IDs)</p>
+<p style="margin: 0;">네번째 글: classes.dex 파일 포맷 (Class Defs, Map List)</p>
 </div></fieldset>
 
 ## 1. classes.dex 파일 (1)
