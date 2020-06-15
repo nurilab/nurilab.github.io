@@ -9,7 +9,7 @@ tags: [fileformat, python, dex]
 <fieldset style="margin:0px 0px 20px 0px;padding:5px;"><legend><span><strong style="font-weight:bold;">연재 순서</strong></span></legend><!--Creative Commons License--><div style="float: left; width: 88px; margin-top: 3px;"><img alt="Creative Commons License" style="border-width: 0" src="/files/images/exclamationmark.png"/></div><div style="margin-left: 92px; margin-top: 3px; text-align: justify;">
 <p style="margin: 0;"><a href="/2020/05/12/fileformat_dex_1/">첫번째 글: classes.dex 파일 포맷 (Header, String IDs)</a></p>
 <p style="margin: 0; background:#ddd;">두번째 글: classes.dex 파일 포맷 (Type IDs, Proto IDs)</p>
-<p style="margin: 0;">세번째 글: classes.dex 파일 포맷 (Field IDs, Method IDs)</p>
+<p style="margin: 0;"><a href="/2020/06/15/fileformat_dex_3/">세번째 글: classes.dex 파일 포맷 (Field IDs, Method IDs)</a></p>
 <p style="margin: 0;">네번째 글: classes.dex 파일 포맷 (Class Defs, Map List)</p>
 </div></fieldset>
 
