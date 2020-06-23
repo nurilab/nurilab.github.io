@@ -209,7 +209,7 @@ X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
 ```
 
 - <https://github.com/nurilab/scanner_kicomav/>
-- <https://github.com/nurilab/scanner_kicomav/bin>
+- <https://github.com/nurilab/scanner_kicomav/tree/master/bin>
 
 위의 링크는 scanner 샘플에 KicomAV 엔진을 반영한 최종 소스코드와 테스트에 사용된 파일 세트이다. 여기에 적용된 KicomAV 엔진에는 eicar 파일만 진단하는 최소한의 엔진 모듈만 포함하고 있다. 그리고 scanner.sys 미니필터 드라이버는 모니터링 대상 확장자를 .com, .exe 로 제한하도록 수정하였다. 그러나 자신만의 백신 엔진을 테스트해보고 싶거나 다양한 파일 포맷을 실시간으로 검사해보고 싶은 독자는 소스코드를 수정해서 테스트해보기 바란다. KicomAV 엔진에 신규 패턴을 적용하는 방법은 아래 링크의 “KicomAV 가이드 (악성코드 패턴 추가 방법 포함)” 에서 확인할 수 있다.
 
