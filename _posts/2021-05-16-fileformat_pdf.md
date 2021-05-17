@@ -115,4 +115,4 @@ Body 섹션 안의 Object들은 트리 형태로 계층적 구조를 이루고 �
 
 ## 4. 마무리
 
-PDF Exploit을 분석하는 가징 기본은 역시 PDF 파일의 구조를 아는 것이다. 이후부터는 PDF Exploit이란 무엇이며 PDF Exploit 진단 방법 및 악성코드 진단 예시를 살펴볼 예정이다.
+PDF Exploit을 분석하는 가장 기본은 역시 PDF 파일의 구조를 아는 것이다. 이후부터는 PDF Exploit이란 무엇이며 PDF Exploit 진단 방법 및 악성코드 진단 예시를 살펴볼 예정이다.
