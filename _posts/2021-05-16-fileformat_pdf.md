@@ -9,7 +9,7 @@ tags: [fileformat, pdf]
 <fieldset style="margin:0px 0px 20px 0px;padding:5px;"><legend><span><strong style="font-weight:bold;">연재 순서</strong></span></legend><!--Creative Commons License--><div style="float: left; width: 88px; margin-top: 3px;"><img alt="Creative Commons License" style="border-width: 0" src="/files/images/exclamationmark.png"/></div><div style="margin-left: 92px; margin-top: 3px; text-align: justify;">
 <p style="margin: 0; background:#ddd;">첫번째 글: PDF 파일 구조 분석</p>
 <p style="margin: 0;"><a href="/2021/05/18/pdf_exploit/">두번째 글: PDF 취약점과 진단 방안</a></p>
-<p style="margin: 0;">세번째 글: 악성 PDF 파일 진단</p>
+<p style="margin: 0;"><a href="/2021/05/31/pdf_exploit_scan/">세번째 글: 악성 PDF 파일 진단</a></p>
 </div></fieldset>
 
 ## 1. 분석 목적
